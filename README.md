@@ -31,7 +31,7 @@ html::body body = html::body();
 To append content to an element, the stream insertion operator should be used. It allows for appending children elements and plain text into the body of an element, eg.
 
 ```cpp
-body << html::br();
+body << "Lorem ipsum dolor sit amet, consectetur adipiscing elit" << html::br();
 ```
 
 ### addAttribute
