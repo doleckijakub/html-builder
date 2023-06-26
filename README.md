@@ -89,10 +89,26 @@ int main() {
 }
 ```
 
-Output:
+Plain output:
 
 ```html
 <html><head><link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="index.css" /></head><body><a href="//google.com"><img src="some_image.png" /></a></body></html>
+```
+
+Output parsed to show the structure:
+
+```html
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<a href="//google.com">
+			<img src="some_image.png" />
+		</a>
+	</body>
+</html>
 ```
 
 ## Support
