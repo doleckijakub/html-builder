@@ -6,7 +6,7 @@ My HTML builder is a simple C++ utility based on the [builder design pattern](ht
 
 The [src](src) directory provides two files, one [header](src/html-builder.hpp) and one [source](src/html-builder.cpp). To compile the program either use the provided [Makefile](Makefile) by doing
 
-```terminal
+```console
 $ make all
 ```
 
