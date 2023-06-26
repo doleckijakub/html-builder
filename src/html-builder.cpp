@@ -68,6 +68,10 @@ body::body() : element("body", "", true) {
 }
 span::span() : element("span", "", true) {
 }
+main::main() : element("main", "", true) {
+}
+div::div() : element("div", "", true) {
+}
 h1::h1() : element("h1", "", true) {
 }
 h2::h2() : element("h2", "", true) {

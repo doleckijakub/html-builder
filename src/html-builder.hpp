@@ -44,6 +44,12 @@ struct body : public element {
 struct span : public element {
 	explicit span();
 };
+struct main : public element {
+	explicit main();
+};
+struct div : public element {
+	explicit div();
+};
 struct h1 : public element {
 	explicit h1();
 };

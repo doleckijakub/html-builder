@@ -119,6 +119,8 @@ The HTML Builder at the moment supports these HTML elements:
 - head
 - body
 - span
+- main
+- div
 - h1
 - h2
 - h3
